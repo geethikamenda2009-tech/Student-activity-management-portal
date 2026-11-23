@@ -1,0 +1,160 @@
+
+/*Universal Selector*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*Body Selector*/
+
+body {
+    background-color: #F8F4EF;
+    color: #514B55;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/*Header Section*/
+
+header {
+    background-color: #E9E1F5;
+    color: #51465D;
+    padding: 30px;
+    text-align: center;
+}
+
+/*Navigation Section*/
+
+nav {
+    background-color: #F5E2E6;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #65566B;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #A47791;
+}
+
+/*Main Section*/
+
+main {
+    margin: 25px;
+}
+
+/*Section Selector*/
+
+section {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 22px;
+    border: 1px solid #E9E1ED;
+    border-radius: 12px;
+}
+
+/*Heading Selector*/
+
+h2 {
+    color: #796687;
+}
+
+h3 {
+    color: #8C718A;
+}
+
+/*Article Selector*/
+
+article {
+    background-color: #F3EEF8;
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 4px solid #C9B9D8;
+    border-radius: 8px;
+}
+
+/*Aside Section*/
+
+aside {
+    background-color: #DDEAE0;
+    color: #506456;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+/*Form Section*/
+
+form {
+    background-color: #FDFBFD;
+    padding: 25px;
+    border: 1px solid #E9DDE9;
+    border-radius: 12px;
+}
+
+/*Label Selector*/
+
+label {
+    color: #655D68;
+    font-weight: 500;
+}
+
+/*Input Selector*/
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #D8CBDD;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    color: #514B55;
+    font-family: Arial, sans-serif;
+}
+
+/*Input Focus*/
+
+input:focus, select:focus, textarea:focus {
+    outline: 2px solid #BCA8D0;
+    border-color: #A58BB9;
+}
+
+/*Submit Button*/
+
+input[type="submit"] {
+    background-color: #BCA8D0;
+    color: white;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9E86B2;
+}
+
+/*Reset Button*/
+
+input[type="reset"] {
+    background-color: #F1E2E7;
+    color: #65566B;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/*Footer Section*/
+
+footer {
+    background-color: #E9E1F5;
+    color: #655D68;
+    padding: 20px;
+    text-align: center;
+}

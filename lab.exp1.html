@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Activity Management Portal">
+    <title>Student Activity Management Portal</title>
+    <link rel="stylesheet" type="text/css" href="STYLE.exp1.css">
+</head>
+<body>
+    <!--this block is for header section-->
+    <header>
+        <center>
+            <h1>STUDENT ACTIVITY MANAGEMENT PORTAL</h1>
+            <p>Explore Events, Activities and Participate!</p>
+        </center>
+    </header>
+    <hr>
+    <!--this block is for navigation section-->
+    <nav>
+        <center>
+            <a href="#home">Home</a> |
+            <a href="#events">Events</a> |
+            <a href="#activities">Activities</a> |
+            <a href="#register">Registration</a>
+        </center>
+    </nav>
+    <hr>
+    <!--this is the main content section-->
+    <main>
+        <!--this block is for home section-->
+        <section id="home">
+            <h2>Welcome to Our University</h2>
+            <p>
+                Welcome to the Student Activity Management Portal.
+                Students can explore university events, participate
+                in competitions and register for activities.
+            </p>
+        </section>
+        <hr>
+        <!--this block shows upcoming events-->
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <article>
+                <h3>Technical Fest</h3>
+                <p>Date: 10 December 2026</p>
+                <p>Participate in coding competitions and technical events.</p>
+            </article>
+            <article>
+                <h3>Cultural Fest</h3>
+                <p>Date: 15 December 2026</p>
+                <p>Enjoy music, dance and cultural performances.</p>
+            </article>
+            <article>
+                <h3>Sports Meet</h3>
+                <p>Date: 20 December 2026</p>
+                <p>Participate in various sports competitions.</p>
+            </article>
+        </section>
+        <hr>
+        <!--this block shows student activities-->
+        <section id="activities">
+            <h2>Student Activities</h2>
+            <article>
+                <h3>Coding Club</h3>
+                <p>Learn programming and improve coding skills.</p>
+            </article>
+            <article>
+                <h3>Music Club</h3>
+                <p>Explore music and showcase your talent.</p>
+            </article>
+            <article>
+                <h3>Sports Club</h3>
+                <p>Participate in indoor and outdoor sports.</p>
+            </article>
+        </section>
+        <hr>
+        <!--this block is for important announcements-->
+        <aside>
+            <h2>Important Announcement</h2>
+            <p>
+                Students are requested to register for upcoming
+                university events.
+            </p>
+        </aside>
+        <hr>
+        <!--this block is for student registration form-->
+        <section id="register">
+            <form action="success.html" method="get">
+                <center>
+                    <h2>Student Registration Form</h2>
+                </center>
+                <!--text fields-->
+                <label for="name">Enter your name:</label>
+                <input type="text" id="name" name="t1"
+                       placeholder="Enter your name" required>
+                <br><br>
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+                <br><br>
+                <label for="phone">Enter phone number:</label>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+                <!--dropdown section-->
+                <label for="dept">Department:</label>
+                <select name="dept" id="dept" required>
+                    <option value="">Select Department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="ECE">ECE</option>
+                    <option value="EEE">EEE</option>
+                    <option value="MECH">MECH</option>
+                    <option value="OTHER">OTHER</option>
+                </select>
+                <br><br>
+                <!--radio button section-->
+                <label>Year of Study:</label>
+                <input type="radio" id="first" name="year" value="First Year" required>
+                <label for="first">First Year</label>
+                <input type="radio" id="second" name="year" value="Second Year">
+                <label for="second">Second Year</label>
+                <input type="radio" id="third" name="year" value="Third Year">
+                <label for="third">Third Year</label>
+                <input type="radio" id="fourth" name="year" value="Fourth Year">
+                <label for="fourth">Fourth Year</label>
+                <br><br>
+                <!--checkbox section-->
+                <label>Hobbies and Interests:</label>
+                <input type="checkbox" id="coding" name="interest" value="Coding">
+                <label for="coding">Coding</label>
+                <input type="checkbox" id="sports" name="interest" value="Sports">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interest" value="Music">
+                <label for="music">Music</label>
+                <input type="checkbox" id="dance" name="interest" value="Dance">
+                <label for="dance">Dance</label>
+                <br><br>
+                <!--textarea section-->
+                <label for="info">Additional Information:</label>
+                <br>
+                <textarea id="info" name="info" rows="5" cols="30"
+                          placeholder="Enter your information"></textarea>
+                <br><br>
+                <!--submit button-->
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </form>
+        </section>
+    </main>
+    <hr>
+    <!--this block is for footer section-->
+    <footer>
+        <center>
+            <h3>Student Activity Management Portal</h3>
+            <p>Email: activities@university.edu</p>
+            <p>Copyright &copy; 2026 University. All Rights Reserved.</p>
+        </center>
+    </footer>
+</body>
+</html>
